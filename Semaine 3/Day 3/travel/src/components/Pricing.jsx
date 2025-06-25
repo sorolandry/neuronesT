@@ -59,7 +59,7 @@ const pricingData = [
 
 function Pricing() {
   return (
-    <section className="pricing section-padding"> {/* Section avec padding global */}
+    <section id="pricing" className="pricing section-padding"> {/* Section avec padding global */}
       <div className="container"> {/* Conteneur pour centrer le contenu */}
         {/* Titre de la section */}
         <h2 className="text-center pricing__heading">

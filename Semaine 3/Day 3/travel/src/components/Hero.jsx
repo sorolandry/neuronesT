@@ -10,7 +10,7 @@ import React from 'react'; // Importe React
 
 function Hero() {
   return (
-    <section className="hero section-padding"> {/* Utilise notre classe utilitaire pour le padding */}
+    <section id="hero" className="hero section-padding"> {/* Utilise notre classe utilitaire pour le padding */}
       <div className="container text-center"> {/* Centrage du contenu et largeur max */}
         {/* Titre principal H1 */}
         <h1 className="hero__title">

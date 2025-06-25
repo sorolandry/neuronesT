@@ -10,7 +10,7 @@ import React from 'react'; // Importe React
 
 function FinalCTA() {
   return (
-    <section className="final-cta section-padding"> {/* Utilise notre classe utilitaire pour le padding */}
+    <section id="finalcta" className="final-cta section-padding"> {/* Utilise notre classe utilitaire pour le padding */}
       <div className="container text-center"> {/* Centrage du contenu et largeur max */}
         {/* Titre de l'appel à l'action */}
         <h2 className="final-cta__heading">

@@ -29,7 +29,7 @@ const testimonialsData = [
 
 function Testimonials() {
   return (
-    <section className="testimonials section-padding"> {/* Section avec padding global */}
+    <section id="testimonials" className="testimonials section-padding"> {/* Section avec padding global */}
       <div className="container"> {/* Conteneur pour centrer le contenu */}
         {/* Titre de la section */}
         <h2 className="text-center testimonials__heading">

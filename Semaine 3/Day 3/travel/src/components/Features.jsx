@@ -31,7 +31,7 @@ const featuresData = [
 
 function Features() {
   return (
-    <section className="features section-padding"> {/* Section avec padding global */}
+    <section id="features" className="features section-padding"> {/* Section avec padding global */}
       <div className="container"> {/* Conteneur pour centrer le contenu */}
         {/* Titre de la section */}
         <h2 className="text-center features__heading">
