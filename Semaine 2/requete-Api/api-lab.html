@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab API et Stockage</title>
+    <link rel="stylesheet" href="style.css"> <style>
+        /* Styles spécifiques pour ce lab si besoin */
+        #posts-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .post-card {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .post-card h3 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .post-card p {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Découverte des API</h1>
+        <button id="load-posts-btn">Charger les 10 premiers posts</button>
+        <div id="posts-container">
+            </div>
+
+        <hr style="margin: 50px 0;">
+
+        <h1>Persistance de la To-Do List</h1>
+        <form id="persistent-task-form">
+            <input type="text" id="persistent-new-task-input" placeholder="Ajouter une tâche persistante..." required>
+            <button type="submit">Ajouter</button>
+        </form>
+        <ul id="persistent-task-list">
+            </ul>
+        <button id="clear-all-tasks-btn" style="margin-top: 15px; background-color: #6c757d;">Effacer toutes les tâches</button>
+    </div>
+
+    <script src="api-lab.js"></script>
+</body>
+</html>
