@@ -1,0 +1,18 @@
+// server/tsconfig.json
+{
+    "compilerOptions": {
+    "target": "es2021",                          /* Spécifie la version cible de JavaScript pour la compilation. */
+    "module": "commonjs",                       /* Spécifie le système de module utilisé. */
+    "lib": ["es2021"],                          /* Inclut les bibliothèques de types pour les fonctionnalités ES2021. */
+    "outDir": "./dist",                         /* Répertoire de sortie pour les fichiers compilés. */
+    "rootDir": "./src",                         /* Répertoire racine de vos fichiers TypeScript. */
+    "strict": true,                             /* Active toutes les options de vérification de type strictes. */
+    "esModuleInterop": true,                    /* Permet l'interopérabilité entre les modules CommonJS et ES. */
+    "skipLibCheck": true,                       /* Saute la vérification des fichiers de déclaration de bibliothèque. */
+    "forceConsistentCasingInFileNames": true,   /* Force la cohérence de la casse des noms de fichiers. */
+    "resolveJsonModule": true,                  /* Permet d'importer des modules JSON. */
+    "moduleResolution": "node"                  /* Spécifie la stratégie de résolution des modules. */
+    },
+  "include": ["src/**/*.ts"],                   /* Inclut tous les fichiers .ts dans le dossier src. */
+  "exclude": ["node_modules", "dist"]           /* Exclut ces dossiers de la compilation. */
+}

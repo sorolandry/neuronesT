@@ -1,0 +1,17 @@
+{
+  "name": "ShopFlow",
+  "version": "1.0.0",
+  "description": "Plateforme E-commerce Multi-vendeurs MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix client\" \"npm run start --prefix server\"",
+    "client": "npm run dev --prefix client",
+    "server": "npm start --prefix server"
+  },
+  "keywords": [],
+  "author": "Landry",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

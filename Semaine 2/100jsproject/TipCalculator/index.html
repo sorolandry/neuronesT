@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <h1 class="titre">TIP CALCULATOR</h1>
+        <P class="PARAGRAPHE">
+            Enter the bill amount and tip percentage to cal
+        </P>
+
+        <form action="">
+            <label for="amount">Bill amount : </label>
+            <input type="number" name="amount" id="amount">
+
+            <label for="percentage">Tip percentage : </label>
+            <input type="number" name="percentage" id="percentage">
+
+            <button onclick="calculate()">CALCULATE</button>
+        </form>
+
+        <div class="solved">Total : <span id="resultat"></span></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
